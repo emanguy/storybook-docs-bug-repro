@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "storybook-docs-bug-repro"
+    }
+  },
+  "defaultProject": "storybook-docs-bug-repro",
+  "cli": {
+    "analytics": "aabb68cd-368b-4e58-a7e3-f5174e6a24ca"
+  }
 }

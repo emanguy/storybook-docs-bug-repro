@@ -1,0 +1,22 @@
+{
+    "extends": "../tsconfig.app.json",
+    "compilerOptions": {
+        "types": [
+            "node"
+        ],
+        "module": "esnext"
+    },
+    "exclude": [
+        "../src/test.ts",
+        "../src/**/*.spec.ts",
+        "../projects/**/*.spec.ts",
+        "../src/**/*.jesttests.ts"
+    ],
+    "include": [
+        "../src/**/*",
+        "../projects/**/*"
+    ],
+    "files": [
+        "./typings.d.ts"
+    ]
+}
