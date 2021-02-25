@@ -11,7 +11,7 @@ You can see the bug in action by doing the following:
 ![Working Docs](./img/WorkingDocs.png)
 
 2. Build static content for storybook via `npm run build-storybook`
-3. Serve the page with a simple HTTP server (I used `docker run --rm -v (pwd)/storybook-static/:/usr/share/nginx/html:ro -p 3000:80 --name=storybook-content -d nginx:latest` from the project root)
+3. Serve the page with a simple HTTP server (I used `docker run --rm -v \`pwd\`/storybook-static/:/usr/share/nginx/html:ro -p 3000:80 --name=storybook-content -d nginx:latest` from the project root)
    and the docs will not show.
    
 ![Not working docs](./img/NonWorkingDocs.png)
